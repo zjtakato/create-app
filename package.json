@@ -1,16 +1,24 @@
 {
   "name": "@zjtakato/create-app",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.1.0",
+  "description": "create zjtakato app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": "./index.js",
-  "keywords": [],
+  "keywords": [
+    "zjtakato",
+    "create-app"
+  ],
+  "files": [
+    "./index.js",
+    "./template/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zjtakato/create-app.git"
+  },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "inquirer": "^9.1.5"
-  }
+  "license": "ISC"
 }
