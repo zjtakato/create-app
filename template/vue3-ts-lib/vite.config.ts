@@ -24,7 +24,6 @@ export default defineConfig({
     }),
   ],
   build: {
-    cssCodeSplit: true,
     lib: {
       entry: './src/libs/index.ts',
       formats: ['es', 'cjs'], // 新增format需要去package.json增加到对应的入口文件
