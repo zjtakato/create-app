@@ -1,5 +1,5 @@
 {
-  "name": "npm-package",
+  "name": "npm-lib",
   "version": "1.0.0",
   "description": "",
   "types": "./dist/index.d.ts",
@@ -17,6 +17,9 @@
       }
     }
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
